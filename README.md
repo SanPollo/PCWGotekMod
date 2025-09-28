@@ -12,9 +12,9 @@ PCW Gotek Mod is a PCB which, when connected to a Gotek programmed with [FlashFl
 
 Without this mod you must eject, and re-insert the image while booting.
 
-The research, and resolution for the floppy signals problem was done by [Fabrizio Di Vittorio](https://github.com/fdivitto), and the PCW community is very grateful for him [sharing this information in his blog](https://fabriziodivittorio.blogspot.com/2018/05/installazione-gotek-su-amstrad-pcw-9512.html).
+The research, and resolution for the floppy signals problem was done by [Fabrizio Di Vittorio](https://github.com/fdivitto), and the PCW community is very grateful for him [sharing this information on his blog](https://fabriziodivittorio.blogspot.com/2018/05/installazione-gotek-su-amstrad-pcw-9512.html).
 
-I have found that the fix also resolves the issue of CP/M reporting two floppy drives being present on a single drive system, and I recommend that this is fitted to all Goteks used in Amstrad PCWs.
+I have found that the fix also resolves the issue of CP/M reporting two floppy drives being present on a single drive system, and I recommend that it is applied to all Goteks used in Amstrad PCWs.
 
 As well as resolving the issues mentioned above, the PCW Gotek Mod also allows the Gotek to be set to drive A or B on a dual drive system, and can be optionally fitted with a piezo buzzer for simulated "floppy" sounds.
 
@@ -26,15 +26,15 @@ The PCB contains passthroughs for the other Gotek pins on the header it occupies
 
 ## Why?
 
-As explained in [Fabrizio Di Vittorio's blog](https://fabriziodivittorio.blogspot.com/2018/05/installazione-gotek-su-amstrad-pcw-9512.html), when CP/M is booted, it attempts to detect the type of drive it is running on. This is done by stopping the drive motor, and asking the floppy controller to check the status for drive A until it reports that the drive is not ready. As Goteks ignore the motor signal, and always report the drive as ready, the boot process halts until the disk is eject and re-inserted.
+As explained in Fabrizio's blog, when CP/M is booted, it attempts to detect the type of drive it is running on. This is done by stopping the drive motor, and asking the floppy controller to check the status for drive A until it reports that the drive is not ready. As Goteks ignore the motor signal, and always report the drive as ready, the boot process halts until the disk is eject and re-inserted.
 
 <br>
 
 ## How?
 
-As both signals are in negated logic, using one of the 74LS32 logic IC's OR gate ensures that the output is low only when both inputs are low.
+As both signals are in negated logic, using one of the 74LS32's OR gates ensures that the output is low only when both inputs are low.
 
-A single jumper chooses if the Gotek is drive A or drive B.
+A single jumper chooses whether the Gotek is detected as drive A or drive B.
 
 ### Files
 
