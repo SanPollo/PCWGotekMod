@@ -2,7 +2,7 @@
 
 ![image](images/render01.png)
 
-If you would like to order a pre-assembled board, you can do so from its [PCBWay project](https://www.pcbway.com/project/shareproject/PCW_Gotek_Mod_c2c73485.html).
+### If you would like to buy a pre-assembled board, you can do so from [PCBWay](https://www.pcbway.com/project/shareproject/PCW_Gotek_Mod_c2c73485.html).
 
 **This project is licensed under the [CERN Open Hardware Licence Version 2: CERN-OHL-S](https://opensource.org/license/cern-ohl-s). If you intend to build and sell this PCB, please make sure that you first read this licence.**
 
@@ -66,3 +66,11 @@ In order to prevent the DuPont wire from being too long, and to reduce the numbe
 Below is the location of the spare +5V pin on the Gotek SFRKC30.AT2 you can use to power the PCW Gotek Mod. Other models may differ.
 
 ![image](images/headers.png)
+
+<br>
+
+# Links
+
+* [PCW Gotek Mod on PCBWay](https://www.pcbway.com/project/shareproject/PCW_Gotek_Mod_c2c73485.html)
+* [Fabrizio Di Vittorio's blog: Installazione Gotek su Amstrad PCW 9512](https://fabriziodivittorio.blogspot.com/2018/05/installazione-gotek-su-amstrad-pcw-9512.html)
+* [FlashFloppy Wiki: Hardware Mods](https://github.com/keirf/flashfloppy/wiki/Hardware-Mods)
